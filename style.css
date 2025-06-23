@@ -1,0 +1,71 @@
+.buttonstyled {
+    position: relative;
+    padding: 1rem 2.5rem;
+    font-size: 25px;
+    font-weight: bold;
+    color: #542682;
+    background: #fcb827;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: transform 0.2s ease;
+    z-index: 1;
+    font-family: NSR, serif;
+    margin: 20px;
+}
+
+
+.buttonstyled:hover {
+    transform: scale(1.05);}
+
+body {
+
+    font-family: NSR, serif;
+
+
+}
+
+@font-face {
+    font-family: 'NSR';
+    src: url('fonts/NotoSans_Condensed-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.Team {
+
+    padding-left: 35px;
+    padding-right: 35px;
+    width: 310px;
+
+    
+}
+
+.Matches {
+
+    width: 284px
+
+}
+
+.Discover {
+
+    width: 250px
+
+}
+body {
+    height: 300vh;
+    background: #000;
+}
+
+canvas {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100vw;
+    max-height: 100vh;
+}
+
+
+
