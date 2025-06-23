@@ -67,5 +67,15 @@ canvas {
     max-height: 100vh;
 }
 
+.discover {
+
+
+        height: 5500px;
+
+}
+
+.navbar {
+    z-index: 9999;}
+
 
 

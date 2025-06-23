@@ -1,5 +1,5 @@
-let frameCount = 147,
-    urls = new Array(frameCount).fill().map((o, i) => `https://www.apple.com/105/media/us/airpods-pro/2019/1299e2f5_9206_4470_b28e_08307a42f19b/anim/sequence/large/01-hero-lightpass/${(i+1).toString().padStart(4, '0')}.jpg`);
+let frameCount = 900,
+    urls = new Array(frameCount).fill().map((o, i) => `https://eligellodererste.github.io/losangeleslakers/src/frames/frame_${(i+1).toString().padStart(4, '0')}.png`);
 
 document.addEventListener("DOMContentLoaded", (event) => {
     gsap.registerPlugin(ScrollTrigger)
@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
         //onUpdate: (index, image) => console.log("drew image index", index, ", image:", image),
         scrollTrigger: {
             start: 0,   // start at the very top
-            end: "max", // entire page
+            end: "4560", // entire page
             scrub: true, // important!
         }
     });
