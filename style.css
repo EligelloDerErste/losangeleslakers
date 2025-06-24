@@ -39,7 +39,7 @@ body {
     padding-right: 35px;
     width: 310px;
 
-    
+
 }
 
 .Matches {
@@ -75,7 +75,31 @@ canvas {
 }
 
 .navbar {
-    z-index: 9999;}
+    z-index: 9999;
+    position: relative;}
 
+/* Page Transition Animations */
+.page-transition {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#542682, #fcb827);
+    z-index: 10000;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in-out;
+}
 
+.page-transition.slide-in {
+    transform: translateX(0);
+}
 
+.page-transition.slide-out {
+    transform: translateX(-100%);
+}
+
+/* Hide content during transition */
+body.transitioning {
+    overflow: hidden;
+}

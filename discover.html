@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GSAP Example 2</title>
+    <title>Discover | Lakers</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body class="discover">
@@ -11,34 +11,34 @@
 
     <a href="index.html">
 
-        <img style="height: 325px" src="src/navbar.png" alt="lal symbol">
+        <img style="width: 300px;" src="src/navbar.png" alt="lal symbol">
 
     </a>
 
     <button style="margin-top: 35px" class="buttonstyled">
-
+        <a style="color: #542682; text-decoration: none" href="discover.html">
         Discover
-
+        </a>
     </button>
 
     <button style="margin-top: 35px" class="buttonstyled">
-
+        <a style="color: #542682; text-decoration: none" href="matches.html">
         Matches
-
+        </a>
     </button>
 
     <button style="margin-top: 35px" class="buttonstyled">
-
+        <a style="color: #542682; text-decoration: none" href="team.html">
         Team
-
+        </a>
     </button>
 
-<h1 style="color: white; text-align: center">Our History</h1>
+<h1 style="color: white; text-align: center; position: relative; z-index: 9991">Our History</h1>
 
 
 </div>
-<h1 style="text-align: center">Discover our History</h1>
-<canvas id="image-sequence" width="1920" height="950" />
+<h1 style="text-align: center; justify-content: flex-start; z-index: 10000; color: white">Discover our History</h1>
+<canvas id="image-sequence" width="1920" height="1080" />
 
 <!-- Include GSAP Modules -->
 <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js"></script>
@@ -46,5 +46,8 @@
 
 <!-- Include custom JS for this app -->
 <script src="main.js"></script>
+
+<!-- Include page transition script -->
+<script src="page-transitions.js"></script>
 </body>
 </html>
